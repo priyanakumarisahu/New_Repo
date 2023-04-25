@@ -24,8 +24,11 @@ public class LoginPage {
 
 
 //Initialization
+//here we use webdriver driver to avoid staleElementReferenceException:
+	//It’s one of selenium Exception , whenever webdriver try to identify an element , 
+//	element was available in GUI, but at time of performing an action on the elements element was not recognized due to  page got refreshed or elements may become old or element not attached to page in such case we get  staleElementReferenceException
 
-public LoginPage(WebDriver driver) {
+	public LoginPage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
 

@@ -20,51 +20,51 @@
       <![CDATA[Datatabase disconnected successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-31T11:13:33 IST" name="Default suite" finished-at="2023-03-31T11:14:25 IST" duration-ms="51059">
+  <suite started-at="2023-04-06T13:04:27 IST" name="Default suite" finished-at="2023-04-06T13:06:08 IST" duration-ms="100981">
     <groups>
     </groups>
-    <test started-at="2023-03-31T11:13:33 IST" name="Default test" finished-at="2023-03-31T11:14:25 IST" duration-ms="51059">
+    <test started-at="2023-04-06T13:04:27 IST" name="Default test" finished-at="2023-04-06T13:06:08 IST" duration-ms="100981">
       <class name="com.Actitime.Testscripts.TaskTest">
-        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:13:33 IST" name="databaseconnection" finished-at="2023-03-31T11:13:33 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:04:27 IST" name="databaseconnection" finished-at="2023-04-06T13:04:27 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connected successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- databaseconnection -->
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:13:33 IST" name="launchbrowser" finished-at="2023-03-31T11:14:01 IST" duration-ms="27746" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:04:27 IST" name="launchbrowser" finished-at="2023-04-06T13:05:17 IST" duration-ms="49549" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:14:01 IST" name="login" finished-at="2023-03-31T11:14:04 IST" duration-ms="2577" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:05:17 IST" name="login" finished-at="2023-04-06T13:05:19 IST" duration-ms="2271" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged in successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createcustomer()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:14:04 IST" name="createcustomer" finished-at="2023-03-31T11:14:17 IST" duration-ms="13462" status="PASS">
+        <test-method signature="createcustomer()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:05:19 IST" name="createcustomer" finished-at="2023-04-06T13:05:59 IST" duration-ms="40381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createcustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:14:17 IST" name="logout" finished-at="2023-03-31T11:14:24 IST" duration-ms="7014" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:05:59 IST" name="logout" finished-at="2023-04-06T13:06:07 IST" duration-ms="8072" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logged out]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:14:24 IST" name="closeBrowser" finished-at="2023-03-31T11:14:25 IST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:06:07 IST" name="closeBrowser" finished-at="2023-04-06T13:06:08 IST" duration-ms="684" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="databasedisconnection()[pri:0, instance:com.Actitime.Testscripts.TaskTest@2b91004a]" started-at="2023-03-31T11:14:25 IST" name="databasedisconnection" finished-at="2023-03-31T11:14:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="databasedisconnection()[pri:0, instance:com.Actitime.Testscripts.TaskTest@58695725]" started-at="2023-04-06T13:06:08 IST" name="databasedisconnection" finished-at="2023-04-06T13:06:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Datatabase disconnected successfully]]>
